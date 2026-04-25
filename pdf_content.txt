@@ -1,0 +1,205 @@
+﻿--- PAGE 1 ---
+Neural Networks Project ΓÇö Educational Platform  
+Overall Objective 
+Develop an interactive educational platform that enables users to: 
+∩é╖ 
+Understand how neural networks work  
+∩é╖ 
+Experiment with different models  
+∩é╖ 
+Visualize the learning process  
+∩é╖ 
+Compare performance  
+Overall Project Architecture 
+1. User Interface (UI) 
+The platform should allow the user to: 
+∩é╖ 
+Load a dataset (CSV)  
+∩é╖ 
+Choose the type of problem:  
+o Binary classification  
+o Multi-class classification  
+o Regression  
+∩é╖ 
+Select a model  
+2. Models to Implement 
+Level 1 ΓÇö Fundamentals 
+∩é╖ 
+Historical perceptron  
+∩é╖ 
+Perceptron (with activation function) 
+Level 2 ΓÇö Advanced Neural Networks 
+Multi-Layer Perceptron (MLP) 
+Implement: 
+- Forward propagation 
+Model Parameterization 
+The user must be able to choose: 
+- 
+Number of hidden layers 
+- 
+Number of neurons per layer 
+
+--- PAGE 2 ---
+- 
+Activation functions: 
+o Sigmoid 
+o ReLU 
+o Tanh 
+o Softmax (multi-class output) 
+Level 3 ΓÇö Learning and Optimization 
+Cost functions 
+- MSE (regression) 
+- Binary Cross-Entropy 
+- Categorical Cross-Entropy 
+Optimization 
+- Gradient Descent 
+- (Bonus) Mini-batch Gradient Descent 
+Backpropagation 
+Level 4 ΓÇö Regularization & Generalization 
+Implement and compare: 
+Techniques 
+- 
+L2 Regularization 
+- 
+Dropout (advanced bonus) 
+- 
+Early stopping 
+Pedagogical objective 
+Understand: 
+- 
+Overfitting 
+- 
+Underfitting 
+- 
+Bias vs Variance 
+Level 5 ΓÇö Model Evaluation 
+Classification 
+- 
+Accuracy 
+- 
+Precision / Recall 
+- 
+F1-score 
+- 
+Confusion matrix 
+Regression 
+
+--- PAGE 3 ---
+- 
+MSE 
+- 
+RMSE 
+- 
+R┬▓ score 
+Level 6 ΓÇö Visualization (VERY IMPORTANT) 
+The platform must display: 
+During training 
+- 
+Loss vs Epochs 
+- 
+Accuracy vs Epochs 
+Results 
+- 
+Decision boundary (2D) 
+- 
+Train vs Test comparison 
+This is what makes the project educational, not just technical. 
+Recommended Technical Architecture 
+Backend (Python) 
+Modules to develop: 
+- models/ 
+- 
+perceptron.py 
+- 
+mlp.py 
+- 
+rbf.py 
+- training/ 
+- 
+forward.py 
+- 
+backward.py 
+- 
+optimizer.py 
+- utils/ 
+- 
+metrics.py 
+- 
+activation.py 
+- 
+loss.py 
+Frontend (depending on level) 
+- Simple option: Streamlit 
+- Advanced option: Flask + HTML/CSS/JS 
+
+--- PAGE 4 ---
+Key Platform Features 
+Configuration 
+- 
+Model selection 
+- 
+Hyperparameters: 
+o Learning rate 
+o Epochs 
+o Architecture 
+Data 
+- 
+CSV upload 
+- 
+Train / Test split 
+Execution 
+- 
+ΓÇ£TrainΓÇ¥ button 
+- 
+Real-time display 
+Mandatory Experiments 
+Experiment 1 
+Compare: 
+- 
+Perceptron vs MLP 
+Experiment 2 
+Effect of the number of layers 
+Experiment 3 
+Overfitting vs regularization 
+Expected Deliverables 
+Code 
+- 
+Well structured 
+- 
+Documented 
+Report 
+Must include: 
+- 
+Theoretical explanation 
+- 
+Experimental results 
+- 
+Critical analysis 
+
+--- PAGE 5 ---
+Demo 
+- 
+Platform presentation 
+- 
+Use cases 
+Evaluation Criteria 
+Criterion 
+Weight 
+Correct implementation 
+30% 
+Theoretical understanding 
+20% 
+Experimentation 
+20% 
+Platform quality 
+20% 
+Innovation / bonus 
+10% 
+Possible Bonuses 
+- Comparison with sklearn 
+- Advanced interactive interface 
+- 3D visualization 
+ 
+"You are not just implementing neural networks ΓÇö you are building a platform that teaches 
+how they work." 
+
